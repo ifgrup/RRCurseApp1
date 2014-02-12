@@ -19,6 +19,7 @@
 		78CA95E118ABDB7D002741B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CA95C918ABDB7D002741B1 /* UIKit.framework */; };
 		78CA95E918ABDB7D002741B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CA95E718ABDB7D002741B1 /* InfoPlist.strings */; };
 		78CA95EB18ABDB7D002741B1 /* RRCurseApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA95EA18ABDB7D002741B1 /* RRCurseApp1Tests.m */; };
+		78CA95F618ABF3A5002741B1 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA95F518ABF3A5002741B1 /* Pixel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		78CA95E618ABDB7D002741B1 /* RRCurseApp1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRCurseApp1Tests-Info.plist"; sourceTree = "<group>"; };
 		78CA95E818ABDB7D002741B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78CA95EA18ABDB7D002741B1 /* RRCurseApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCurseApp1Tests.m; sourceTree = "<group>"; };
+		78CA95F418ABF3A5002741B1 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixel.h; sourceTree = "<group>"; };
+		78CA95F518ABF3A5002741B1 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				78CA95D518ABDB7D002741B1 /* RRAppDelegate.m */,
 				78CA95D718ABDB7D002741B1 /* Images.xcassets */,
 				78CA95CC18ABDB7D002741B1 /* Supporting Files */,
+				78CA95F418ABF3A5002741B1 /* Pixel.h */,
+				78CA95F518ABF3A5002741B1 /* Pixel.m */,
 			);
 			path = RRCurseApp1;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CA95F618ABF3A5002741B1 /* Pixel.m in Sources */,
 				78CA95D618ABDB7D002741B1 /* RRAppDelegate.m in Sources */,
 				78CA95D218ABDB7D002741B1 /* main.m in Sources */,
 			);
@@ -444,6 +450,7 @@
 				78CA95F018ABDB7D002741B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78CA95F118ABDB7D002741B1 /* Build configuration list for PBXNativeTarget "RRCurseApp1Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				78CA95F318ABDB7D002741B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
