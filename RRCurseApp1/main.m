@@ -14,10 +14,15 @@
 
 int main(int argc, char * argv[])
 {
-    Pixel *pixel;
+    Pixel *pixel=[[Pixel alloc] init];
+    
     [pixel situarEnOrigen];
+    // %d -> int %f.2 float %@ object 
+    NSLog(@"X: %d Y: %d",pixel.posX,pixel.posY);
     [pixel moverHorizontalmente:30];
     int posicionX=[pixel posX];
+    int posicionX2=pixel.posX;
+
     
     if([pixel EstaFueraDeLosLimites])
     {
