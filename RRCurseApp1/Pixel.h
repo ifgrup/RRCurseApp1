@@ -16,17 +16,16 @@
     Color *colorpixel;
 }
 
--(int)posX;
--(void)setPosX:(int) value;
--(int)posY;
--(void)setPosY:(int) value;
+@property int posX;
+@property int posY;
 
+@property (readonly)BOOL EstaFueraDeLosLimites;
 
 
 -(void) situarEnOrigen;
 -(void) moverHorizontalmente:(int)posx ;
 -(void) moverHorizontalmente:(int)posx yVerticalmente:(int)posy;
--(BOOL) EstaFueraDeLosLimites;
+
 -(Color*) color;
 
 

@@ -10,18 +10,10 @@
 
 @implementation Color
 
--(void)setRed:(UInt8) value
-{
-    red=value;
-}
--(void)setGreen:(UInt8) value
-{
-    green=value;
-}
--(void)setBlue:(UInt8) value
-{
-    blue=value;
-}
+@synthesize red;
+@synthesize green;
+@synthesize blue;
+
 
 
 -(NSString*)getCodigoRGB

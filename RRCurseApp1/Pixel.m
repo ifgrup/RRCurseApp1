@@ -10,24 +10,9 @@
 
 @implementation Pixel
 
--(int)posX
-{
-    return posX;
-}
--(void)setPosX:(int) value
-{
-    posX=value;
-}
+@synthesize posX;
 
--(int)posY
-{
-    return posY;
-}
--(void)setPosY:(int) value
-{
-    posY=value;
-}
-
+@synthesize posY;
 
 
 -(void) situarEnOrigen

@@ -15,9 +15,9 @@
     UInt8 blue;
 }
 
--(void)setRed:(UInt8) value;
--(void)setGreen:(UInt8) value;
--(void)setBlue:(UInt8) value;
+@property  UInt8 red;
+@property  UInt8 green;
+@property  UInt8 blue;
 
 -(NSString*)getCodigoRGB;
 @end
