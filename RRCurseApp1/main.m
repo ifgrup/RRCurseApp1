@@ -10,6 +10,7 @@
 
 #import "RRAppDelegate.h"
 #import "Pixel.h"
+#import "PixelInvertido.h"
 
 
 int main(int argc, char * argv[])
@@ -32,8 +33,14 @@ int main(int argc, char * argv[])
     }
     [pixel moverHorizontalmente:30 yVerticalmente:100];
     
-   // NSLog([[pixel color] getCodigoRGB]);
+NSLog([[pixel color] getCodigoRGB]);
     
+    Pixel *pixel2=[[PixelInvertido alloc]init];
+    
+    
+    NSLog(@"x: %d, Y: %d",[pixel2 posX],[pixel2 posY]);
+    
+    //[pixel release];
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([RRAppDelegate class]));
     }

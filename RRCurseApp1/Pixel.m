@@ -52,7 +52,15 @@
     
     return (posX>300)||(posY>300)||(posX<0)||(posY<0);
 }
-
+-(Color*)color
+{
+     Color *c=[[Color alloc] init];
+    [c setRed:0xff];
+    [c setGreen:0x00];
+    [c setBlue:0xdd];
+    return c;
+    //return colorpixel;
+}
 
 
 

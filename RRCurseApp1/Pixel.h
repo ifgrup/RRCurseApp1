@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Color.h"
 
 @interface Pixel : NSObject
 {
     int posX;
     int posY;
+    Color *colorpixel;
 }
 
 -(int)posX;
@@ -25,7 +27,7 @@
 -(void) moverHorizontalmente:(int)posx ;
 -(void) moverHorizontalmente:(int)posx yVerticalmente:(int)posy;
 -(BOOL) EstaFueraDeLosLimites;
-
+-(Color*) color;
 
 
 

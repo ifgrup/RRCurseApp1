@@ -20,6 +20,8 @@
 		78CA95E918ABDB7D002741B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CA95E718ABDB7D002741B1 /* InfoPlist.strings */; };
 		78CA95EB18ABDB7D002741B1 /* RRCurseApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA95EA18ABDB7D002741B1 /* RRCurseApp1Tests.m */; };
 		78CA95F618ABF3A5002741B1 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA95F518ABF3A5002741B1 /* Pixel.m */; };
+		78EF8B0318AD1D670071DF13 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF8B0218AD1D670071DF13 /* Color.m */; };
+		78EF8B0618AD27FD0071DF13 /* PixelInvertido.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF8B0518AD27FD0071DF13 /* PixelInvertido.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		78CA95EA18ABDB7D002741B1 /* RRCurseApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCurseApp1Tests.m; sourceTree = "<group>"; };
 		78CA95F418ABF3A5002741B1 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixel.h; sourceTree = "<group>"; };
 		78CA95F518ABF3A5002741B1 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixel.m; sourceTree = "<group>"; };
+		78EF8B0118AD1D670071DF13 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		78EF8B0218AD1D670071DF13 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		78EF8B0418AD27FD0071DF13 /* PixelInvertido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelInvertido.h; sourceTree = "<group>"; };
+		78EF8B0518AD27FD0071DF13 /* PixelInvertido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelInvertido.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,10 @@
 				78CA95CC18ABDB7D002741B1 /* Supporting Files */,
 				78CA95F418ABF3A5002741B1 /* Pixel.h */,
 				78CA95F518ABF3A5002741B1 /* Pixel.m */,
+				78EF8B0118AD1D670071DF13 /* Color.h */,
+				78EF8B0218AD1D670071DF13 /* Color.m */,
+				78EF8B0418AD27FD0071DF13 /* PixelInvertido.h */,
+				78EF8B0518AD27FD0071DF13 /* PixelInvertido.m */,
 			);
 			path = RRCurseApp1;
 			sourceTree = "<group>";
@@ -246,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CA95F618ABF3A5002741B1 /* Pixel.m in Sources */,
+				78EF8B0618AD27FD0071DF13 /* PixelInvertido.m in Sources */,
+				78EF8B0318AD1D670071DF13 /* Color.m in Sources */,
 				78CA95D618ABDB7D002741B1 /* RRAppDelegate.m in Sources */,
 				78CA95D218ABDB7D002741B1 /* main.m in Sources */,
 			);
